@@ -3,7 +3,17 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SKMU Smart Cover Generator (CTviewAi Pro)</title>
+<title>SKMU Smart Cover Generator (CTviewAi Pro)  </title>
+```html
+<div style="text-align:center; margin-top:20px;">
+  <h4>Follow Us</h4>
+  <a href="https://instagram.com/creatorsanjivon" target="_blank" 
+     style="text-decoration:none; color:#E1306C; font-weight:bold;">
+     Instagram: @creatorsanjivon
+  </a>
+</div>
+```
+
 
 <!-- Google Fonts For English & Hindi -->
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Noto+Sans+Devanagari:wght@600;800&family=Mukta:wght@600;800&family=Tiro+Devanagari+Hindi&display=swap" rel="stylesheet">
@@ -333,7 +343,32 @@
                 <select id="college" onchange="logoFetch()">
                     <option value="sp">S.P. College, Dumka</option>
                     <option value="anc">A.N. College, Dumka</option>
-                    <option value="gd">G.D. College, Pakur</option>
+<option value="c102">S.P. Mahila College, Dumka</option>
+<option value="c103">Deoghar College, Deoghar</option>
+<option value="c104">A.S. College, Deoghar</option>
+<option value="c105">R.D. Bajla Mahila College, Deoghar</option>
+<option value="c106">Madhupur College, Madhupur</option>
+<option value="c107">K.K.M College, Pakur</option>
+<option value="c108">Sahibganj College, Sahibganj</option>
+<option value="c109">B.S.K College, Barharwa</option>
+<option value="c110">S.R.T College, Dharmri</option>
+<option value="c111">Jamtara College, Jamtara</option>
+<option value="c112">Godda College, Godda</option>
+<option value="c113">Milt College, Parsa</option>
+<option value="c114">Model College, Pakur</option>
+<option value="c115">Model College Rajmahal, Sahibganj</option>
+<option value="c116">Model College, Dumka</option>
+<option value="c117">Model Mahavidyalaya Nawatand, Palajori (Deoghar)</option>
+<option value="c118">Model Mahavidyalaya, Godda</option>
+<option value="c119">New Model Degree Mahila College, Pakur</option>
+<option value="c120">BSA MAHILA MAHAVIDYALAYA Pathna (Sahibganj) </option>
+<option value="c121">Degree College, Nala (Fatehpur)</option>
+<option value="c122">Degree College, Mahagama</option>
+<option value="c123">Degree College, Shikaripara</option>
+<option value="c124">Degree College, Jarmundi</option>
+<option value="c125">Degree College, Maheshpur</option>
+<option value="c126">Mahila College, Sarath</option>
+<option value="c127">Mahila College, Madhupur</option>
                 </select>
             </div>
             <div class="input-group">
@@ -548,9 +583,21 @@
     function logoFetch() {
         let college = document.getElementById("college").value;
         let logo = document.getElementById("collegeLogo");
-        if(college == "sp") logo.src = "https://via.placeholder.com/100/ff4757/ffffff?text=SP";
+        if(college == "sp") logo.src = "https://spcollegedumka.ac.in/assets/images/logo_small.png";
         else if(college == "anc") logo.src = "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6tOZ6N0Sk_8EbyATYCbJvtKaUBHNcCPF5IR6zfln2Wu-u_gfYIRe4h4UIAVS0MvH-qTeG-XbJYj4bGOELzPdMp6bS8hfwyD_qnfXY6AiPt2GdIAMtpWO27GY0ilqf_i4vGYz3ZcaYjlmpbqiZpT2DYg2fsoDMx99hIhWAiTli9-WaP8ffSoZQPZoheCJw/s1600/ancollegelogo.png";
-        else logo.src = "https://via.placeholder.com/100/f39c12/ffffff?text=GD";
+        else if(college == "c102") logo.src =  "https://spmahilacollege.ac.in/assets/images/web_logo.png";
+        else if(college == "c103") logo.src =  "https://deogarhcollege.org.in/img/logos/logo.png";
+        else if(college == "c104") logo.src =  "https://blogger.googleusercontent.com/img/a/AVvXsEg9PLgb4tQKCFB86bxuE5hma_0Bn5ZhyQm3ASmuwV5jeWmCPjkVSxW09DNhpAQ_Ku3INn7-sW_tTgm7Aqnl9DdxBJhO1OzoAvFk6ZCVCHfBBPApFxfzQ6uPprV5GCNLSEoyUyTkq5oupH82Djaaq_tqB2jBprl9_CQA7w5vSUtC4yZM2GEAPLtqLR9Mi_Ea";
+        else if(college == "c105") logo.src =  "https://rdbmm.ac.in/assets/images/skmu_logo.png";
+        else if(college == "c108") logo.src =  "https://www.sahibganjcollege.in/Content/assets/images/c_image/logo/Sahebganj_college_logo.png?width=350";
+        else if(college == "c109") logo.src =  "https://www.bskcollegebarharwa.ac.in/assets/images/logo_large.png";
+        else if(college == "c111") logo.src =  "https://jamtaracollege.ac.in/assets/images/jamtara_college_logo.png";
+        else if(college == "c112") logo.src =  "https://goddacollege.org/wp-content/uploads/2021/08/cropped-godda-college-banner.jpg";
+        else if(college == "c113") logo.src =  "https://millatcollegeparsa.ac.in/assets/images/logo_skmu.jpg";
+        else if(college == "c115") logo.src =  "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsgiBaSEJg3ALrql7Oi7xYdMjiyulpuzrduvul3maSnivFU_V29wnKAJ9l0hGtbfC9Vq-dSe6OXdX6RIgMkIdFLjRaa36SWbw2ICm1OsCSP79KRtJxZVPd6K2LQaeIv5ZSmKy3ViupovXRfyF8q6cBHpUMsztMSjt2Z85b6fvmjPS-3eRRacOT-5B2-fyv/s320/6172744977004301483-Photoroom.png";
+        else if(college == "c119") logo.src =  "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKY5qBTNvpjWynmklmsJOq8nSzQLHF3cXJkb54dwO5-GtMWad20WxU9dxlTzArZ29Y13Pi4YYkrDZtOyZJQtIYi6lmur_5AXtzcBZjhpvOQHnSBctAElHq5w4IAbj_neaqzqKdsh2jPmfG5W68A3hxJYGSDpXUSmho9qsT24VJlnkTPImNjKNQujhabTFm/s1600/images-Photoroom.png";
+        else if(college == "c120") logo.src =  "https://bsamm.ac.in/uplimg/5_IMG-20231013-WA0012.jpg";
+        else if(college == "c123") logo.src =  "https://degreecollegeshikaripara.ac.in/img/college_logo.jpg";
         generate();
     }
 
